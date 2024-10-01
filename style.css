@@ -2,11 +2,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: gray;
-    min-height: 100vh;
+    position: relative;
 }
 
-header,
-footer {
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,6 +35,7 @@ header nav ul li a {
 main {
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 5rem;
 }
 
 main h2 {
@@ -69,8 +69,6 @@ main p {
     width: 30%;
 }
 
-.skill {}
-
 .skill ul {
     display: flex;
     padding: 0;
@@ -91,15 +89,14 @@ main p {
 }
 
 footer {
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center; */
+    display: flex;
+    justify-content: space-between;
     background-color: black;
     padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    position: absolute;
+    /* bottom: -1;
+    left: 0; */
+    width:98% ;
 }
 
 .social-media ul {
@@ -173,7 +170,7 @@ footer {
 
 @media only screen and (max-width: 500px) {
     header {
-        /* width: 90%; */
+        /* width: 86%; */
     }
 
     header nav ul {
@@ -185,7 +182,7 @@ footer {
     }
 
     main {
-        margin-top: 2rem;
+        margin: 2rem;
     }
 
     .intro {
@@ -216,17 +213,18 @@ footer {
 
     main p {
         font-size: 1.2rem;
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
     }
 
-    footer {
-        /* width: 90%; */
-        display: flex;
-        gap: 0;
-        flex-direction: space-between;
+    footer{
+        width: 92%;
     }
 
     .social-media ul li a i {
         font-size: 1.5rem;
+    }
+
+    .project-container{
+        margin-top: 5rem;
     }
 }
