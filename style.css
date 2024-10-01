@@ -157,3 +157,54 @@ footer {
 .project-container div img{
     width: 100%;
 }
+
+@media only screen and (max-width: 400px) {
+    header{
+        width: 90%;
+    }
+
+    header nav ul{
+        padding: 0;
+    }
+
+    header nav ul li{
+        font-size: 1.5rem;
+    }
+    main{
+        margin-top: 2rem;
+    }
+
+    .intro .name h1{
+        font-size: 2rem;
+    }
+
+    .intro .name p{
+        font-size: 1rem;
+    }
+
+    .skill ul li a i{
+        font-size: 1.5rem;
+    }
+
+    .intro img{
+        width:150px;
+    } 
+
+    main h2{
+        margin-top: 3rem;
+        font-size: 2rem;
+    }
+
+    main p{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    footer{
+        width: 90%;
+    }
+
+    .social-media ul li a i{
+        font-size: 1.5rem;
+    }
+}
