@@ -2,9 +2,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: gray;
+    min-height: 100vh;
 }
 
-header,footer {
+header,
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,6 +96,10 @@ footer {
     align-items: center; */
     background-color: black;
     padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .social-media ul {
