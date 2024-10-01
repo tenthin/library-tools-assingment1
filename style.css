@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+}
+
+header img, footer img {
+    height: 5rem;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+header nav ul li {
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main h2{
+    font-size: 5rem;
+    margin: 0;
+}
+
+main p{
+    font-size: 2rem;
+    margin: 0;
+}
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.intro .name h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.intro .name p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.skill {}
+
+.skill ul {
+    display: flex;
+    padding: 0;
+    gap: 1rem;
+}
+
+.skill ul li {
+    list-style-type: none;
+}
+
+.skill ul li a {
+    text-decoration: none;
+}
+
+.skill ul li a i {
+    color: black;
+    font-size: 2rem;
+}
+
+footer {
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+}
+
+.social-media ul {
+    display: flex;
+    gap: 1.2rem;
+    padding: 0;
+}
+
+.social-media ul li {
+    list-style-type: none;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+}
+
+.social-media ul li a i {
+    font-size: 2rem;
+    color: white;
+}
